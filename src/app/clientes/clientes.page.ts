@@ -17,7 +17,7 @@ export class ClientesPage implements OnInit {
     {
     icon: 'basketball',
     name: 'Inicio',
-    redirectTo: '/inicio',
+    redirectTo: '/alert',
   },
   {
     icon: 'boat',
@@ -26,7 +26,8 @@ export class ClientesPage implements OnInit {
   },
   {icon:'basketball',
     name:'Accion',
-    redirectTo:'/actions',}
+    redirectTo:'/actions',
+  }
   
 
   ];

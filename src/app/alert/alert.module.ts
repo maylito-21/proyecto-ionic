@@ -5,18 +5,18 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ActionsPageRoutingModule } from './actions-routing.module';
+import { AlertPageRoutingModule } from './alert-routing.module';
 
-import { ActionsPage } from './actions.page';
+import { AlertPage } from './alert.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ActionsPageRoutingModule,
+    AlertPageRoutingModule,
     ComponentsModule
   ],
-  declarations: [ActionsPage]
+  declarations: [AlertPage]
 })
-export class ActionsPageModule {}
+export class AlertPageModule {}

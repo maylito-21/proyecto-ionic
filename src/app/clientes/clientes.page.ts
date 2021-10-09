@@ -27,7 +27,15 @@ export class ClientesPage implements OnInit {
   {icon:'basketball',
     name:'Accion',
     redirectTo:'/actions',
-  }
+  },
+  {icon:'basketball',
+  name:'avatar',
+  redirectTo:'/avatar',
+},
+{icon:'basketball',
+name:'favoritos',
+redirectTo:'/favoritos',
+}
   
 
   ];
